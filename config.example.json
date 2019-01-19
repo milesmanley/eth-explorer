@@ -20,7 +20,7 @@
         "linkedin": "https://www.linkedin.com/company/ethereum-classic",
         "github": "https://github.com/ethereumproject",
         "logo": "/img/explorer-logo.png",
-        "customCss": "zelcore-etc-theme.css",
+        "customCss": "green-haze.min.css",
         "copyright": "2019 &copy; Ethereum Classic, ZelCore.",
         "useEthFiat": false,
         "poweredbyCustom": true,
