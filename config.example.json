@@ -24,7 +24,7 @@
         "copyright": "2019 &copy; Ethereum Classic, ZelCore.",
         "useEthFiat": false,
         "poweredbyCustom": false,
-        "poweredbyEtcImage": "/img/powered-by-zelcore-etc-w.png",
+        "poweredbyEtcImage": "/img/powered-by-etcexplorer.png",
         "poweredbyEtc": true,
         "miners": {
             "0xdf7d7e053933b5cc24372f878c90e62dadad5d42": "EtherMine",
