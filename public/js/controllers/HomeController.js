@@ -55,12 +55,6 @@ angular.module('BlocksApp').controller('HomeController', function($rootScope, $s
       }
   }
 })
-.directive('siteNotes', function() {
-  return {
-    restrict: 'E',
-    templateUrl: '/views/site-notes.html'
-  }
-})
 //OLD CODE DONT USE
 .directive('summaryStats', function($http) {
   return {

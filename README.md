@@ -1,8 +1,8 @@
 # ETCExplorer
 
-<b>Live Version: [etherhub.io](http://etherhub.io)</b>
+<b>Live Version: [explorer.etc.zelcore.io](https://explorer.etc.zelcore.io)</b>
 
-Follow the project progress at: [ETC Block Explorer Development](https://github.com/ethereumclassic/explorer)
+Thank you to the contributors and creators, Follow the projects progress at: [ETC Block Explorer Development](https://github.com/ethereumclassic/explorer)
 
 ## Local installation
 
@@ -45,7 +45,7 @@ Basic settings:
         "symbol": "ETC",
         "name": "Ethereum Classic",
         "title": "Ethereum Classic Block Explorer",
-        "author": "Elaine"
+        "author": "Elaine, Scribbles"
     }
 }
 

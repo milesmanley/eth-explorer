@@ -6,11 +6,11 @@
                 <h2>About</h2>
                 <p> {{settings.about}} </p>
                 <span ng-bind-html="settings.poweredbyCustom" ng-if="settings.poweredbyCustom">{{settings.poweredbyCustom}}</span>
-                <span ng-if="!settings.poweredbyCustom && settings.poweredbyEtcImage"><a href="https://github.com/ethereumproject/explorer" target="_blank"><img height="51px" src="{{settings.poweredbyEtcImage}}"></a></span>
-                <p ng-if="!settings.poweredbyCustom && !settings.poweredbyEtcImage && settings.poweredbyEtc"> Powered by <a href="https://github.com/ethereumproject/explorer" target="_blank">ETC Explorer</a> </p>
+                <span ng-if="!settings.poweredbyCustom && settings.poweredbyEtcImage"><a href="https://zelcore.io" target="_blank"><img height="51px" src="{{settings.poweredbyEtcImage}}"></a></span>
+                <p ng-if="!settings.poweredbyCustom && !settings.poweredbyEtcImage && settings.poweredbyEtc"> Powered by <a href="https://zelcore.io" target="_blank">ETC ZelCore Explorer</a> </p>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 footer-block">
-                <h2>Follow Us On</h2>
+                <h2>Check us out at</h2>
                 <ul class="social-icons">
                     <li>
                         <a ng-show="settings.rss" href="{{settings.rss}}" data-original-title="rss" class="rss"></a>
@@ -24,17 +24,13 @@
                     <li>
                         <a ng-show="settings.github" href="{{settings.github}}" data-original-title="github" class="github"></a>
                     </li>
-                    <li>
-                        <a ng-show="settings.linkedin" href="{{settings.linkedin}}" data-original-title="linkedin" class="linkedin"></a>
-                    </li>
                 </ul>
             </div>
             <div ng-show="settings.symbol == 'ETC'" class="col-md-6 col-sm-12 col-xs-12 footer-block">
-                <h2>Help, it's Broken!</h2>
+                <h2>Help, it's not working</h2>
                 <address class="margin-bottom-40"> 
-                    <br>Open an Issue: <a href="https://github.com/ethereumproject/explorer/issues">github</a>
-                    <br> <a href="mailto:elaine.ou@gmail.com">Email bug reports</a>
-                    <br> <a href="https://twitter.com/eiaine">Twit</a>
+                    <br>Try live support <a href="https://faq.zelcore.io">ZelCore Support Center</a>
+                    <br> <a href="mailto:support@zeltechnologies.com">Email support</a>
                 </address>
             </div>
         </div>
